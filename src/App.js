@@ -1,7 +1,13 @@
-import "./styles/App.css"
+import "./styles/App.css";
+import Homepage from "./pages/Homepage";
 
 function App() {
-  return <></>;
+  return (
+    <div className="App">
+      <h1>Image Gallery</h1>
+      <Homepage />
+    </div>
+  );
 }
 
 export default App;
